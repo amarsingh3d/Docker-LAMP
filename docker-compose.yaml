@@ -1,0 +1,25 @@
+version: '3'
+services:
+    php-apache:
+        image: amarsingh3d/apache2.4-php7.2
+        ports:
+            - 80:80
+        volumes:
+            - ./DocumentRoot:/var/www/html:z
+        links:
+            - 'mysql'
+
+    mariadb:
+            image: mysql:5.6
+        volumes:
+            - MySQL_DATA:/var/lib/mysql
+        environment:
+            TZ: "Asia/Kolkata"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+            MYSQL_ROOT_PASSWORD: "rootpwd"
+            MYSQL_USER: 'testuser'
+            MYSQL_PASSWORD: 'testpassword'
+            MYSQL_DATABASE: 'testdb'
+
+volumes:
+    MySQL_DATA:
