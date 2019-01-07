@@ -23,3 +23,12 @@ services:
 
 volumes:
     MySQL_DATA:
+
+    phpmyadmin:
+                image: amarsingh3d/phpmyadmin
+                ports:
+                    - 8080:80
+                links:
+                    - 'mysql:db'
+
+

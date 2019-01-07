@@ -26,3 +26,15 @@ sh setupdir.sh
 ```
 
 Once Directory setup successfully, we can proceed to provision LAMP Container stack
+
+**Step 3- Setup Container LAMP stack:**
+
+To provison LAMP stack run following command.
+```
+docker-compose up
+```
+
+Validate Created Container:
+```
+docker ps
+```
