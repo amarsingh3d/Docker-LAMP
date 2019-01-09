@@ -57,3 +57,15 @@ Validate Created Container:
 ```
 docker ps
 ```
+```
+CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS              PORTS                            NAMES
+326da5972785        phpmyadmin/phpmyadmin          "/run.sh supervisord…"   About an hour ago   Up About an hour    9000/tcp, 0.0.0.0:8080->80/tcp   docker-lamp_phpmyadmin_1
+c1a700d81c42        amarsingh3d/apache2.4-php7.2   "/bin/sh -c '/usr/sb…"   About an hour ago   Up About an hour    0.0.0.0:80->80/tcp               docker-lamp_www_1
+7480657c8ced        mysql:5.6                      "docker-entrypoint.s…"   About an hour ago   Up About an hour    0.0.0.0:3306->3306/tcp           docker-lamp_db_1
+```
+All Three Containers are up and running.
+
+Verify Apache and phpinfo.php
+http://10.0.1.170
+http://10.0.1.170/phpinfo.php
+
