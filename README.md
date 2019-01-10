@@ -1,4 +1,5 @@
 # Docker LAMP
+!image[https://3.bp.blogspot.com/-P63_HqZZw_k/XDbYNyRevEI/AAAAAAAAFEw/zqQX4qc-aRMIua9WUKHRdrDBU4hbQnm3ACLcBGAs/s640/Docker-Lamp.jpg]
 
 This document describe how to setup LAMP stack with Docker and Container. In this guide, We will setup three Container
 
@@ -52,6 +53,7 @@ To provison LAMP stack run following command.
 ```
 docker-compose up
 ```
+Above command will start container in intractive mode, you can launch your container in dattach mode by this command **docker-compose up -d**
 
 **Validate Created Container:**
 ```
@@ -71,7 +73,11 @@ In order to verify Apache container, check your Docker host IP address and acces
 
 http://10.0.1.170
 
+!image[https://3.bp.blogspot.com/-zJBHaXuksvQ/XDbp8XugwrI/AAAAAAAAFE8/jOK-LTQzUl8gfSs38aynOdQF8581HSQ4gCLcBGAs/s640/ub.png]
+
 http://10.0.1.170/phpinfo.php
+
+!image[https://4.bp.blogspot.com/-1CzCJtqwCd8/XDbqNfCXhFI/AAAAAAAAFFE/o1PIqBZbBtcRnZ1mh2srVC5T4rYVZsQwACLcBGAs/s640/ubb.png]
 
 **Verify PhpMyAdmin access**
 
@@ -82,3 +88,5 @@ http://10.0.1.170:8080
 Enter the User **root** and Password is **test** that we defined in our **docker-compose.yaml** file.
 
 After successful authentication, your output would be like below screenshot
+
+!image[https://1.bp.blogspot.com/-XamxqDQWAGY/XDbrncOgA2I/AAAAAAAAFFQ/ZfYhmfyD_qY_wEebQghH1Zq3ENi5LSAowCLcBGAs/s640/ubbb.png]
