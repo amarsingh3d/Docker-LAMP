@@ -53,7 +53,7 @@ To provison LAMP stack run following command.
 docker-compose up
 ```
 
-Validate Created Container:
+**Validate Created Container:**
 ```
 docker ps
 ```
@@ -65,7 +65,16 @@ c1a700d81c42        amarsingh3d/apache2.4-php7.2   "/bin/sh -c '/usr/sb…"   Ab
 ```
 All Three Containers are up and running.
 
-Verify Apache and phpinfo.php
+**Verify Apache Container and php version using phpinfophp.php file.**
+In order to verify Apache container, check your Docker host IP address and access IP Address in the browser. In my case My IP address is following
 http://10.0.1.170
+
 http://10.0.1.170/phpinfo.php
 
+**Verify PhpMyAdmin access**
+To check PhpMyAdmin login, browse Docker host IP with port 8080
+
+http://10.0.1.170:8080
+Enter the User **root** and Password is **test** that we defined in our **docker-compose.yaml** file.
+
+After successful authentication, your output would be like below screenshot
