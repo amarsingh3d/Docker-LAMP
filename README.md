@@ -1,5 +1,5 @@
 # Docker LAMP
-[!image](https://3.bp.blogspot.com/-P63_HqZZw_k/XDbYNyRevEI/AAAAAAAAFEw/zqQX4qc-aRMIua9WUKHRdrDBU4hbQnm3ACLcBGAs/s640/Docker-Lamp.jpg)
+![image](https://3.bp.blogspot.com/-P63_HqZZw_k/XDbYNyRevEI/AAAAAAAAFEw/zqQX4qc-aRMIua9WUKHRdrDBU4hbQnm3ACLcBGAs/s640/Docker-Lamp.jpg)
 
 This document describe how to setup LAMP stack with Docker and Container. In this guide, We will setup three Container
 
