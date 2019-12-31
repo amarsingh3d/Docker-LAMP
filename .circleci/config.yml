@@ -16,4 +16,4 @@ jobs:
             - run: cd /home/
             - run: ls -l 
             - run: exit
-            - run: deployment completed successfully
+            - run: "deployment completed successfully"
