@@ -5,8 +5,8 @@ jobs:
             - image: nginx
 
         steps:
-            - checkout
-            - add ssh_keys:
+            
+            - add_ssh_keys:
                 fingerprints:
                   - "76:93:24:8d:1d:8f:7a:6c:f3:fb:e4:71:68:3f:89:a7"
             - run:
