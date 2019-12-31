@@ -12,8 +12,8 @@ jobs:
             - run:
                 name: add dokcer server to known server
                 command:  ssh-keyscan -H 18.232.109.109 >> ~/.ssh/known_hosts
-            - run: ssh ubuntu@18.232.109.109 
-            - run: cd /home/
-            - run: ls -l 
-            - run: exit
-            - run: "deployment completed successfully"
+            - run: ssh ubuntu@18.232.109.109 && 
+                   cd /home/ \
+                   ls -l \
+                   exit
+            
