@@ -89,4 +89,4 @@ Enter the User **root** and Password is **test** that we defined in our **docker
 
 After successful authentication, your output would be like below screenshot
 
-![image](https://1.bp.blogspot.com/-XamxqDQWAGY/XDbrncOgA2I/AAAAAAAAFFQ/ZfYhmfyD_qY_wEebQghH1Zq3ENi5LSAowCLcBGAs/s640/ubbb.png)
+![image](https://1.bp.blogspot.com/-XamxqDQWAGY/XDbrncOgA2I/AAAAAAAAFFQ/ZfYhmfyD_qY_wEebQghH1Zq3ENi5LSAowCLcBGAs/s640/ubbb.png)Semiannual update - Wed Nov 20 11:30:24 UTC 2024
